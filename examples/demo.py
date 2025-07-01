@@ -1,13 +1,11 @@
 # examples/demo.py
 
-from sumtoken.core import SumTokenizer
+from grapes_tokenizer import GrapesTokenizer
 
 def main():
-    tokenizer = SumTokenizer(positional=True)  # Only decimal output
-    words = ["cat", "no", "on", "abc", "hello"]
-    for word in words:
-        token = tokenizer.encode(word)
-        print(f"{word} → {token}")
+    tok = GrapesTokenizer(positional=True)
+    for w in ["cat", "no", "on", "hello", "abc"]:
+        print(f"{w} → {tok.encode(w)}")
 
 if __name__ == "__main__":
     main()
