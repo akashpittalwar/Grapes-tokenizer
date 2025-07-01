@@ -1,6 +1,6 @@
 # 🍇 Grapes Tokenizer
 
-[![PyPI version](https://img.shields.io/pypi/v/grapes-tokenizer.svg)](https://test.pypi.org/project/grapes-tokenizer/0.1.3/)
+[![PyPI](https://img.shields.io/pypi/v/grapes-tokenizer.svg)](https://test.pypi.org/project/grapes-tokenizer/0.1.3/)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Build Status](https://github.com/akashpittalwar/Grapes-tokenizer/actions/workflows/ci.yml/badge.svg)](https://github.com/akashpittalwar/Grapes-tokenizer/actions)
 
