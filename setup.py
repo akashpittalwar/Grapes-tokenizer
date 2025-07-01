@@ -1,10 +1,8 @@
 # setup.py
-
 from setuptools import setup, find_packages
 import pathlib
 
 here = pathlib.Path(__file__).parent
-
 long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
@@ -16,7 +14,10 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/akashpittalwar/Grapes-tokenizer",
-    license="Apache-2.0",
+    project_urls={
+        "Source": "https://github.com/akashpittalwar/Grapes-tokenizer",
+        "Tracker": "https://github.com/akashpittalwar/Grapes-tokenizer/issues",
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License",
@@ -24,9 +25,4 @@ setup(
     ],
     packages=find_packages(exclude=["tests*", "examples*"]),
     python_requires=">=3.6",
-    entry_points={
-        "console_scripts": [
-            "grapes-tokenizer=grapes_tokenizer.cli:main",
-        ]
-    },
 )
