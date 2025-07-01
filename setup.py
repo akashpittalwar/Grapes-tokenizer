@@ -7,7 +7,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="grapes-tokenizer",
-    version="0.1.1",
+    version="0.1.2",
     author="Akash Pittalwar",
     author_email="akashpittalwar107@gmail.com",
     description="A simple sum-based tokenizer for NLP/LLM research",
