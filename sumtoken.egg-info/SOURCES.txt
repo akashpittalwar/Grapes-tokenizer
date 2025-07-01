@@ -1,0 +1,7 @@
+setup.py
+sumtoken/__init__.py
+sumtoken/core.py
+sumtoken.egg-info/PKG-INFO
+sumtoken.egg-info/SOURCES.txt
+sumtoken.egg-info/dependency_links.txt
+sumtoken.egg-info/top_level.txt
